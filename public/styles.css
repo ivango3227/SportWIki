@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat";
+}
+html, 
+body,
+.wrapper,
+#root {
+    height: 100%;
+    background-color:#F4FCD9;
+}
+
+header{
+    margin-bottom: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    background-color: white ;
+    color:#5D8BF4;
+    box-shadow: 0px 0px 13px 1px #5D8BF4;
+}
+header h1{
+    margin-left:20px;
+    text-decoration: none;
+   
+}
+header button{
+    background-color: #FFF;
+    border: none;
+    color:#5D8BF4
+}
+
+.article-container{
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.article-container h1{
+    color:#5D8BF4;
+    margin-bottom: 30px;
+}
+.sport-preview{
+    background-color:#fff;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius:10px;
+    border: solid 1px #C1F8CF;
+    width:60%;
+    height:200px;
+    display:flex;
+    justify-content: space-between;
+    color:#5D8BF4;
+}
+.sport-preview img{
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+.sport-preview button{
+    background-color:#fff;
+    border: 0px;
+    cursor:pointer;
+    color: #5d8bf4;
+
+    
+}
+.sport-preview p{
+    margin-top: 15px;
+    margin-bottom:40px;
+    color:black;
+    font-size: 16px;
+}
+.article-wrapper{
+    color:#5D8BF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.article{
+    background-color: #FFF;
+    margin-top: 50px;
+    display:flex;
+    justify-content: space-between;
+    width:75%;
+    padding: 25px 25px 25px 25px;
+    border-radius:10px;
+    border: solid 1px #C1F8CF;
+    
+}
+.article img{
+    width:auto;
+    margin-left:20px;
+    border-radius: 10px;
+}
+.article p{
+    color:black;
+}
+
+.paginationButtons{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    width:80%;
+    height:40px;
+    list-style:none;
+    display:flex;
+
+}
+.paginationButtons a{
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #5D8BF4;
+    cursor: pointer;
+    color:#5D8BF4;
+}
+.paginationButtons a:hover{
+    color:white;
+    background-color: #5D8BF4;
+}
+.paginationActive a{
+    color:white;
+    background-color: #5D8BF4;
+}
